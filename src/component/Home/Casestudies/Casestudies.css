@@ -1,0 +1,113 @@
+/*/////////////////////////////////////Awards & Recognition section css end//////////////////////////////////////////*/
+
+.pr-case-studies {
+	padding-bottom: 50px;
+}
+.pr-case-studies .case-study-tab {
+	display: flex;
+	flex-direction: row;
+}
+.pr-case-studies .nav-tabs {
+	width: 15%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding: 5rem 0;
+    border-bottom: none;
+}
+
+/*////////////////////////////////////////Case Studies section css start/////////////////////////////////////////////*/
+
+/*///////////////////////////////////////Style the buttons inside the tab////////////////////////////////////////////*/
+
+.pr-case-studies .nav-tabs .nav-link {
+	display: block;
+	color: #777777;
+	padding: 22px 16px;
+	width: 100%;
+	border: none;
+	outline: none;
+	text-align: left;
+	cursor: pointer;
+	transition: 0.3s;
+	font-size: 17px;
+	font-weight: 700;
+	background: transparent;
+}
+
+/*//////////////////////////////////Change background color of buttons on hover///////////////////////////////////////*/
+
+.pr-case-studies .nav-tabs .nav-link:hover {
+	color: #303030;
+}
+
+/*//////////////////////////////////Create an active/current "tab .nav-link" class///////////////////////////////////////*/
+.pr-case-studies .nav-tabs .nav-link.active {
+	color: #303030;
+	position: relative;
+}
+.pr-case-studies .nav-tabs .nav-link.active:after {
+	position: absolute;
+	content: '';
+	width: 30px;
+	height: 2px;
+	background: #303030;
+	right: -14px;
+	top: 50%;
+}
+/*////////////////////////////////////////////Style the tab content//////////////////////////////////////////////////*/
+
+
+/*.pr-case-studies .case-study-slider {
+	padding-left: 2rem;
+}*/
+.pr-case-studies .tab-content {
+	padding: 0px 12px;
+	width: 85%;
+	border-left: none;
+	background: #fff;
+	padding: 5rem 0 5rem 2rem;
+}
+
+/*.pr-case-studies .swiper-container {
+	padding-bottom: 1rem;
+}
+.pr-case-studies .swiper-button-next, 
+.pr-case-studies .swiper-container-rtl .swiper-button-prev {
+    right: 10px;
+    left: auto;
+    top: unset;
+    bottom: 0;
+}
+.pr-case-studies .swiper-button-prev, 
+.pr-case-studies .swiper-container-rtl .swiper-button-next {
+    left: auto;
+	right: 50px;
+    top: unset;
+    bottom: 0;
+}
+*/
+.pr-case-studies .pr-c-s-heading {
+	color: #000;
+	font-weight: 700;
+	margin-bottom: 0;
+}
+.pr-case-studies .case-text > *:first-child{
+	margin-top:0;
+	font-weight: 600;
+	font-size: 2.5rem;
+	line-height: 3rem;
+}
+.pr-case-studies .case-text p, 
+.pr-case-studies .case-text a {
+	margin-bottom: 0;
+	margin-top: 3rem;
+}
+.pr-case-studies .pr-cust-btn {
+    padding: .75em 2em .625em;
+}
+.pr-case-studies .pr-cust-btn .fa {
+	background: #fff;
+}
+
+/*/////////////////////////////////////////Case Studies section css end////////////////////////////////////////////////*/

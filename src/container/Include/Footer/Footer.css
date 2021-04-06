@@ -1,0 +1,364 @@
+/*///////////////////////////////////////////footer section css start//////////////////////////////////////////////////*/
+
+.pr-footer {
+	border-bottom: 2px solid #fff;
+}
+.footer-left {
+	padding-right: 2rem;
+}
+.footer-right {
+	padding-left: 2rem;
+	padding-bottom: 1rem;
+}
+
+/*//////////////////////////////////////////footer left part css start/////////////////////////////////////////////////*/
+
+.pr-footer .pr-heading .heading {
+	color: #fff;
+	text-transform: uppercase;
+	padding: 2rem 0 1rem;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+/*.pr-footer .form-group {
+	margin-bottom: 2rem;
+}
+.pr-footer .form-group input.form-control {
+	border-radius: 0;
+	background: transparent;
+	color: #fff;
+}
+.pr-footer .form-group textarea.form-control {
+	width: 100%;
+	padding: 5px 10px;
+	border-radius: 0;
+	background: transparent;
+	color: #fff;
+}
+.pr-footer .form-group input:focus {
+    outline: 0;
+    box-shadow: none;
+    border-color: #fff;
+}
+.pr-footer .form-group textarea:focus {
+    outline: 0;
+    box-shadow: none;
+    border-color: #fff;
+}
+.pr-footer .form-group .form-check-label {
+	color: #fff;
+}
+.pr-footer .form-group input::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.pr-footer .form-group input:-ms-input-placeholder {
+	color: #fff;
+}
+
+.pr-footer .form-group input::placeholder {
+	color: #fff;
+}
+
+.pr-footer .form-group textarea.form-control::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.pr-footer .form-group textarea.form-control:-ms-input-placeholder {
+	color: #fff;
+}
+
+.pr-footer .form-group textarea.form-control::placeholder {
+	color: #fff;
+}
+.pr-footer .pr-footer-from input[type=submit],
+.pr-footer .pr-footer-from button[type=submit] {
+	width: 100%;
+    border-radius: 0;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+}
+.pr-footer .form-group .form-check {
+	padding-left: 0;
+}
+*/
+/*/////////////////////////////////////////////checkbox css start////////////////////////////////////////////////////*/
+
+/*.pr-footer .pr-footer-from .form-group .form-check-input {
+	padding: 0;
+	height: initial;
+	width: initial;
+	margin-bottom: 0;
+	display: none;
+	cursor: pointer;
+}
+
+.pr-footer .pr-footer-from .form-group .form-check-label {
+	position: relative;
+	cursor: pointer;
+}
+
+.pr-footer .pr-footer-from .form-group .form-check-label:before {
+	content:'';
+	-webkit-appearance: none;
+	background-color: transparent;
+	border: 2px solid #ffffff;
+	box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+	padding: 10px;
+	display: inline-block;
+	position: relative;
+	vertical-align: middle;
+	cursor: pointer;
+	margin-right: 15px;
+}
+
+.pr-footer .pr-footer-from .form-group .form-check-input:checked + .form-check-label:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 9px;
+	width: 6px;
+	height: 14px;
+	border: solid #ffffff;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}*/
+
+/*///////////////////////////////////////////////checkbox css end/////////////////////////////////////////////////////*/
+
+/*//////////////////////////////////////////Chrome, Safari, Edge, Opera///////////////////////////////////////////////*/
+
+/*.pr-footer .form-group input::-webkit-outer-spin-button,
+.pr-footer .form-group input::-webkit-inner-spin-button {
+	-webkit-appearance: none;
+	margin: 0;
+}*/
+
+/*//////////////////////////////////////////////////////Firefox///////////////////////////////////////////////////////*/
+.pr-footer .form-group input[type=number] {
+	-moz-appearance:textfield;
+}
+
+/*//////////////////////////////////////////////////////WP form///////////////////////////////////////////////////////*/
+.form_manage > div{
+	margin-bottom:25px;
+}
+.pr-footer .pr-form .form_manage span, 
+.pr-footer .pr-form .form_manage input, 
+.pr-footer .pr-form .form_manage textarea {
+	width:100%;
+}
+.pr-footer .pr-form .form_manage input, 
+.pr-footer .pr-form .form_manage select, 
+.pr-footer .pr-form .form_manage textarea { 
+	border-radius: 0;
+	background: transparent;
+	color: #fff;
+	border: 1px solid #ddd;
+	padding: .375rem .75rem;
+	margin: 0px;
+}
+.pr-footer .pr-form .form_manage input::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.pr-footer .pr-form .form_manage input:-ms-input-placeholder {
+	color: #fff;
+}
+
+.pr-footer .pr-form .form_manage input::placeholder {
+	color: #fff;
+}
+.pr-footer .pr-form .form_manage select::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.pr-footer .pr-form .form_manage select:-ms-input-placeholder {
+	color: #fff;
+}
+
+.pr-footer .pr-form .form_manage select::placeholder {
+	color: #fff;
+}
+.pr-footer .pr-form .form_manage textarea {
+	max-height: 140px;
+}
+.pr-footer .pr-form .form_manage textarea::-webkit-input-placeholder {
+	color: #fff;
+}
+
+.pr-footer .pr-form .form_manage textarea:-ms-input-placeholder {
+	color: #fff;
+}
+
+.pr-footer .pr-form .form_manage textarea::placeholder {
+	color: #fff;
+}
+.pr-footer .pr-form .form_manage span.wpcf7-list-item {
+	margin: 0;
+}
+.pr-footer .pr-form .form_manage.cust-checkbox label>input {
+	padding: 0;
+	height: initial;
+	width: initial;
+	margin-bottom: 0;
+	display: none;
+	cursor: pointer;
+}
+.pr-footer .pr-form .form_manage.cust-checkbox label>span {
+	position: relative;
+	cursor: pointer;
+	color: #fff;
+}
+.pr-footer .pr-form .form_manage.cust-checkbox label>span:before {
+    content: '';
+    -webkit-appearance: none;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+    padding: 10px;
+    display: inline-block;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.pr-footer .pr-form .form_manage.cust-checkbox label>input:checked + span:after {
+	content: '';
+	display: block;
+	position: absolute;
+	top: 5px;
+	left: 9px;
+	width: 6px;
+	height: 14px;
+	border: solid #ffffff;
+	border-width: 0 2px 2px 0;
+	transform: rotate(45deg);
+}
+.pr-footer .pr-form .form_manage input[type="submit"] {
+    width: 100%;
+    border-radius: 0;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #007bff;
+    border-color: #007bff;
+}
+.pr-footer .pr-form .form_manage input[type="submit"]:hover {
+    color: #fff;
+    background-color: #0069d9;
+    border-color: #0062cc;
+}
+.pr-footer .pr-form .form_manage .ajax-loader {
+	display: none;
+}
+
+
+
+/*//////////////////////////////////////////////////////WP form///////////////////////////////////////////////////////*/
+
+
+
+
+
+
+
+/*////////////////////////////////////////////footer left part css end////////////////////////////////////////////////*/
+
+/*///////////////////////////////////////////footer right part css start//////////////////////////////////////////////*/
+
+.pr-footer .pr-footer-right {
+	border-left: 2px solid #fff;
+}
+.pr-footer .pr-footer-right .footer-right {
+	padding-top: 4rem;
+}
+.pr-footer .footer-right-heading .ftr-heading {
+	color: #fff;
+	text-transform: uppercase;
+	position: relative;
+	font-size: 1.5rem;
+	font-weight: 700;
+}
+.pr-footer .footer-right-heading .ftr-heading:after {
+	position: absolute;
+	content: '';
+	width: 4rem;
+	height: 2px;
+	bottom: -10px;
+	left: 3px;
+	background: #fff;
+}
+.pr-footer .pr-footer-right .navbar {
+	padding: 0.5rem 0;
+}
+.pr-footer .pr-footer-right .nav-item .nav-link {
+	color: #898989;
+	position: relative;
+	padding-left: 0px;
+	transition: all 0.5s;
+}
+.pr-footer .pr-footer-right .nav-item .nav-link:before {
+	position: absolute;
+    content: '';
+    padding: 2px;
+    border: 2px solid;
+    border-color: #fff #fff transparent transparent;
+    transform: rotate(45deg);
+    left: -4px;
+    top: 16px;
+    opacity: 0;
+    transition: all 0.5s;
+}
+.pr-footer .pr-footer-right .nav-item .nav-link:hover {
+	color: #fff;
+	padding-left: 12px;
+	transition: all 0.5s;
+}
+.pr-footer .pr-footer-right .nav-item .nav-link:hover:before {
+    opacity: 1;
+    transition: all 0.5s;
+}
+
+.pr-footer .pr-footer-right .quick-bottom-padd {
+	padding-bottom: 2rem;
+}
+.pr-footer .pr-footer-right .social-links {
+	display: flex;
+	flex-direction: row;
+	padding-top: 1rem;
+}
+.pr-footer .pr-footer-right .social-links a {
+	padding: 5px;
+}
+.pr-footer .pr-footer-right .social-links a:first-child {
+	padding-left: 0;
+}
+.pr-footer .pr-footer-right .social-links a:last-child {
+	padding-right: 0;
+}
+.pr-footer .pr-footer-right .social-links a i {
+	font-size: 30px;
+	color: #898989;
+	transition: all 0.3s ease;
+}
+.pr-footer .pr-footer-right .social-links a:hover i {
+	/*opacity: .9;*/
+	color: #fff;
+}
+
+/*////////////////////////////////////////////footer right part css end///////////////////////////////////////////////*/
+/*/////////////////////////////////////////////footer section css end/////////////////////////////////////////////////*/
+
+
+/*/////////////////////////////////////////footer copy right section start////////////////////////////////////////////*/
+
+
+.footer-copy-right {
+	background: #cccccc;
+}
+.footer-copy-right .copy-right-inner {
+	height: 2rem;
+}
+
+/*//////////////////////////////////////////footer copy right section end/////////////////////////////////////////////*/

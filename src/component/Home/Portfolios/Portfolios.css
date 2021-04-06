@@ -1,0 +1,40 @@
+/*////////////////////////////////////////partners manage css section start///////////////////////////////////////////*/
+
+.partners-manage {
+	padding-bottom: 50px;
+}
+.partners-manage .partners-icon-img {
+	padding: 3rem 0 5rem;
+}
+.partners-manage .partners-icon-img img {
+	max-width: 200px;
+}
+.partners-manage .partners-manage-imgs {
+	list-style-type: none;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+.partners-manage .partners-manage-imgs .img-top {
+	display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+.partners-manage .partners-manage-imgs:hover .img-top {
+	display: inline;
+}
+.partners-manage .partners-manage-imgs li {
+	padding-top: 20px;
+}
+.partners-manage .partners-manage-imgs li img {
+	max-width: 160px;
+    min-width: 150px;
+    width: 100%;
+    filter: grayscale(100%);
+}
+.partners-manage .partners-manage-imgs li img:hover {
+	filter: grayscale(0%);
+}
+/*/////////////////////////////////////////partners manage css section end////////////////////////////////////////////*/

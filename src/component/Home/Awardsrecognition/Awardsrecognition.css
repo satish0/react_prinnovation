@@ -1,0 +1,59 @@
+/*/////////////////////////////////////Awards & Recognition section css start///////////////////////////////////////*/
+
+.awards-recognition {
+	padding-bottom: 50px;
+	/*opacity: 0.8;*/
+	background: url(../../../assets/images/awards-parallex-bg.jpg);
+	width: 100%;
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-position: top center;
+}
+.awards-recognition .pr-heading .heading {
+	color: #fff;
+}
+.awards-recognition .pr-awards-inner {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: center;
+}
+.awards-recognition .pr-awards .awards-icon-img {
+	padding-bottom: 1rem;
+}
+.awards-recognition .pr-awards .awards-icon-img img {
+	max-width: 200px;
+}
+.awards-recognition .awards-text {
+	padding: 0 1rem;
+}
+.awards-recognition .awards-text p {
+	color: #fff;
+}
+
+/*///////////////////////////////////////awards carousel css section start///////////////////////////////////////////*/
+
+/*.awards-recognition .swiper-pagination {
+	position: relative;
+}*/
+.awards-recognition .swiper-pagination-bullet {
+	display: inline-block;
+	border-radius: 25px;
+	background: #3f6a6d;
+	opacity: .2;
+	width: 4.25rem;
+    height: .25rem;
+}
+.awards-recognition .swiper-pagination-bullet.swiper-pagination-bullet-active {
+	background: #fff;
+	opacity: 1;
+}
+.awards-recognition .swiper-wrapper {
+    padding: 0rem 0 3rem;	
+}
+.awards-recognition .swiper-button-prev,
+.awards-recognition .swiper-button-next {
+	display: none;
+}
+/*///////////////////////////////////////awards carousel css section end/////////////////////////////////////////////*/

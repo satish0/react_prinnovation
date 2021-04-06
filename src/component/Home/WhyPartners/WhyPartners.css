@@ -1,0 +1,24 @@
+/*//////////////////////////////////////////why choose us section css start////////////////////////////////////////////*/
+
+.why-choose-us {
+	padding-bottom: 50px;
+}
+.why-choose-us .why-choose-box {
+	padding: 0rem 1rem;
+	padding-bottom: 3rem;
+}
+.why-choose-us .choose-img {
+	padding-bottom: 1.563rem;
+}
+.why-choose-us .choose-img img {
+	max-width: 61px;
+	width: 100%;
+}
+.why-choose-us .choose-text h4 {
+	text-transform: capitalize;
+}
+.why-choose-us .choose-text p {
+	margin-bottom: 0;
+}
+
+/*//////////////////////////////////////////why choose us section css end////////////////////////////////////////////*/
